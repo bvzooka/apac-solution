@@ -1,9 +1,20 @@
-exports.getAllArtifacts = async (req, res) => {
+const artifactModel = require('../models/artifactModel');
+
+exports.getAllArtifacts = (req, res) => {
   try {
-    const artifacts = await Artifact.find(); // Jika pakai database
-    // atau: const artifacts = require('../data/artifacts.json'); // Jika pakai file JSON
+    const artifacts = artifactModel.getAllArtifacts();
     res.json(artifacts);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+exports.addArtifact = (req, res) => {
+  try {
+    const newArtifact = req.body;
+    const artifact = artifactModel.addArtifact(newArtifact);
+    res.status(201).json(artifact);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
   }
 };

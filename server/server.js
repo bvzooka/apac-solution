@@ -1,19 +1,11 @@
-const PORT = 3000;
 const express = require('express');
-const path = require('path');
 const app = express();
+const artifactRoutes = require('./routes/artifactRoutes'); // Pastikan nama file benar
 
-// Serve static files from public folder
-app.use(express.static(path.join(__dirname, '../public')));
-
-// Middleware
 app.use(express.json());
+app.use('/api/artifacts', artifactRoutes);
 
-// Routes
-const museumRoutes = require('./routes/museumRoutes');
-app.use('/api/museums', museumRoutes);
-
-// Jalankan server
+const PORT = 3000;
 app.listen(PORT, () => {
-    console.log(`Server berjalan di http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
