@@ -1,0 +1,24 @@
+[
+  {
+    "id": "A001",
+    "tipe": "Mineral",
+    "name": "Garnierit",
+    "description1": "Mineral Garnierit ini merupakan salah satu koleksi Museum Geologi yang dipamerkan di ruang Geologi Indonesia, yang berasal dari Tonia Terry Hill - Blok Timur lokasi penambangan PT Vale Indonesia.",
+    "description2": "Warnanya hijau dengan tingkat kekerasan 3 – 4 pada skala Mohs, dan merupakan mineral penghasil nikel dalam endapan nikel laterit. Garnierit terbentuk dari hasil pelapukan kimia batuan beku ultrabasa di daerah beriklim tropis, contohnya batuan peridotit yang banyak mengandung mineral olivin dan piroksin.",
+    "description3": "Nama “Garnierit” diberikan sebagai bentuk penghargaan kepada Jules Garnier, seorah ahli geologi Prancis yang pertama kali menemukan mineral ini pada tahun 1865.",
+    "description4": "Di Indonesia, garnierit banyak dijumpai pada batuan beku ultrabasa berwarna hijau seperti di Pulau Sulawesi, Maluku, dan Papua.",
+    "description5": "Sebagai sumber utama nikel laterit, garnierit memiliki peran penting dalam berbagai industri modern diantaranya : industri stainless steel (peralatan medis dan peralatan dapur), sebagai komponen utama dalam baterai kendaraan listrik, pelapis anti korosif, katalis dalam penyulingan minyak bumi, dan sebagai pigmen pewarna hijau dalam industri keramik.",
+    "image": "/images/garnierit.png"
+  },
+  {
+    "id": "A002",
+    "tipe": "Mineral",
+    "name": "Pirit",
+    "description1": "Mineral Pirit ini merupakan salah satu koleksi Museum Geologi yang dipamerkan di ruang Geologi Indonesia, yang berasal dari Navajun, Spanyol.",
+    "description2": "Warnanya kuning keemasan dengan kilap logam. Sekilas mirip emas sehingga orang awam kerap terkecoh. Pirit memiliki bentuk kristal kubik, dengan tingkat kekerasan 6 - 6,5. Ketika di goreskan pada permukaan porselen berwarna coklat kehitaman, hal ini pula yang menjadi dasar pembeda pirit dan emas.",
+    "description3": "Nama pirit (pyrite) berasal dari bahasa Yunani “Pyr” yang berarti api, karena mineral ini dapat menghasilkan percikan api ketika dipukul dengan baja.",
+    "description4": "Para geologist menjadikan pirit sebagai indikator dalam eksplorasi mineral, karena kehadirannya kerap berasosiasi dengan deposit emas dan tembaga.",
+    "description5": "Asam sulfat yang dihasilkan dari hasil ektstraksi sulfur pada pirit digunakan dalam pembuatan pupuk dan detergen. Sulfur dari pyrite juga digunakan dalam pembuatan kertas, bahan peledak, dan industri tekstil.",
+    "image": "/images/pirit.png"
+  }
+]
