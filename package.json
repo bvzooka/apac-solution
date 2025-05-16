@@ -1,0 +1,31 @@
+{
+  "name": "apac-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvzooka/apac-solution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvzooka/apac-solution/issues"
+  },
+  "homepage": "https://github.com/bvzooka/apac-solution#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@yudiel/react-qr-scanner": "^2.3.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.3",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
