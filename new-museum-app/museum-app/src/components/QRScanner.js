@@ -60,7 +60,7 @@ function QRScanner({ onScan }) {
           ))}
         </select>
       )}
-      <div id="reader" style={{ width: "100%" }} />
+      <div id="reader" style={{width: "50%", margin: "auto"}} />
     </div>
   );
 }
